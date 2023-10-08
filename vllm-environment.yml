@@ -1,0 +1,33 @@
+name: /opt/vllm
+channels:
+  - xformers/label/dev
+  - pytorch
+  - nvidia/label/cuda-11.8.0
+  - conda-forge
+dependencies:
+  - accelerate
+  - cuda-minimal-build=11.8.0=0
+  - cuda-toolkit=11.8.0=0
+  - cuda-version=11.8
+  - diskcache
+  - fastapi
+  - numpy
+  - pandas
+  - pip
+  - psutil
+  - pyarrow
+  - pydantic<2
+  - python=3.10.*
+  - pytorch=2.1.0
+  - pytorch-cuda=11.8
+  - sentencepiece
+  - torchvision
+  - transformers
+  - typing_extensions
+  - uvicorn
+  - xformers
+  - pip:
+      - fschat
+      - ninja
+      - ray
+      - vllm==0.2.0
