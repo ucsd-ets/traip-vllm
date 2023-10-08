@@ -1,6 +1,8 @@
 name: Build image
 on:
   push:
+    tags:
+    - "*"
  
 env:
   REGISTRY: ghcr.io
