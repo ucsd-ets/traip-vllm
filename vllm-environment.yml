@@ -30,4 +30,4 @@ dependencies:
       - fschat
       - ninja
       - ray
-      - vllm==0.2.0
+      - vllm==0.3.0
